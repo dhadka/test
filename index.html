@@ -175,7 +175,7 @@ function validate(f){
 </script>
 
 <div class="ss-form-container" id="form-container">
-<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dEZtVlkwUklJMVJ1TU41N3dpaUhuSHc6MQ" method="POST" target="fake-target" onsubmit="if (validate(this)) {custommsg(); return true;} else return false;">
+<form action="" method="POST" target="fake-target" onsubmit="this.action='https://docs.google.com/spreadsheet/formResponse?formkey=dEZtVlkwUklJMVJ1TU41N3dpaUhuSHc6MQ'; if (validate(this)) {custommsg(); return true;} else return false;">
 
                     <div>
 
@@ -256,7 +256,7 @@ THIS SOFTWARE IS MADE AVAILABLE "AS-IS."  THE PENNSYLVANIA STATE UNIVERSITY DISC
 </form>
 </div>
 <div class="ss-form-container" style="display:none;" id="form-message"><b>Your request for the Borg MOEA has been received.  We will contact you by e-mail in three business days.</b></div>
-<iframe id="fake-target" src="blank.html" style="width:0px; height:0px; border:0px;"></iframe>
+<iframe id="fake-target" name="fake-target" src="blank.html" style="width:0px; height:0px; border:0px;"></iframe>
             </div>
 
             <a class="back-to-top" href="#main">Back to Top</a>
@@ -289,7 +289,7 @@ THIS SOFTWARE IS MADE AVAILABLE "AS-IS."  THE PENNSYLVANIA STATE UNIVERSITY DISC
 
                     <h2>Add Your Publication</h2>
 
-                    <p><a href="mailto:admin@borgmoea.org">Tell us</a> about your Borg related publication to get it included in this list.</p>
+                    <p><a href="mailto:info@borgmoea.org">Tell us</a> about your Borg related publication to get it included in this list.</p>
             </aside>
 
 
