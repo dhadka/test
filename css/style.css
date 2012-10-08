@@ -446,7 +446,7 @@ section#main .row .col h2 {
 	position: absolute;
 	left: 50%;
 	bottom: -45px;
-    margin-left: -45px ; /* Tweak this to center bullets */
+    margin-left: -60px ; /* Tweak this to center bullets */
 }
 .slider-wrapper .nivo-controlNav a {
 	display: block;
