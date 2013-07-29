@@ -152,6 +152,11 @@ function validate(f){
     jAlert("Please provide a valid e-mail address.  We will send download instructions to this address.", "Missing Field");
     return false;
   }
+  
+  if (f.elements[1].indexof("borooa@tuhh.de") !== -1) {
+    jAlert("Requests from this address are blocked");
+    return false;
+  }
 
   if (f.elements[2].value.length == 0) {
     jAlert("Please provide the company, organization, or university you are affiliated with.", "Missing Field");
