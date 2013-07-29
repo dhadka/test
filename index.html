@@ -153,7 +153,7 @@ function validate(f){
     return false;
   }
   
-  if (f.elements[1].indexof("borooa@tuhh.de") !== -1) {
+  if (f.elements[1].value.indexof("borooa@tuhh.de") !== -1) {
     jAlert("Requests from this address are blocked", "Blocked Address");
     return false;
   }
