@@ -1,6 +1,6 @@
 name: borgmoea google scholar scraping
 
-on: [push]
+on: []
 
 jobs:
   build:
@@ -24,3 +24,11 @@ jobs:
       run: |
         cd scrape
         bash scrape.sh
+        cd ../
+    - name: Commit and push index.html
+      uses: EndBug/add-and-commit@v7
+      with:
+        author_name: Andrew Dircks
+        author_email: andrewdircks@me.com
+        message: 'auto update'
+        add: index.html
