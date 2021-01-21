@@ -1,6 +1,8 @@
 name: borgmoea google scholar scraping
 
-on: [workflow_dispatch]
+on:
+  schedule:
+    - cron:  '*/15 * * * *'
 
 jobs:
   build:
