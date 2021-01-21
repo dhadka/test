@@ -1,6 +1,6 @@
 name: borgmoea google scholar scraping
 
-on: []
+on: [workflow_dispatch]
 
 jobs:
   build:
