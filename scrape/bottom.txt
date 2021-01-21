@@ -1,0 +1,70 @@
+
+</ol>
+            </div>
+
+            <aside>
+                    <h2>Download Citations</h2>
+
+                    <ul class="link-list">
+                        <li><a href="borg.bib" title="Bibtex Citations">BibTeX</a></li>
+                        <li><a href="endnote.xml" title="EndNote Citations">EndNote</a></li>
+                    </ul>
+
+                    <h2>Add Your Publication</h2>
+
+                    <p><a href="mailto:info@borgmoea.org">Tell us</a> about your Borg related publication to get it included in this list.</p>
+
+                    <h2>Links</h2>
+                    <ul>
+                      <li><a href="https://reed.cee.cornell.edu/">Research Group</a></li>
+                      <li><a href="http://www.moeaframework.org/">MOEA Framework</a></li>
+                      <li><a href="mailto:info@borgmoea.org">Contact Us</a></li>
+                    </ul>
+            </aside>
+
+
+
+            <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="footer-content">
+        <p class="footer-text">Copyright 2012-2013 David Hadka and Patrick Reed. &nbsp;&nbsp;&nbsp; Designed by <a href="http://www.styleshout.com/">Styleshout</a></p>
+    </div>
+
+</footer>
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35383611-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+var sc_project=8353980; 
+var sc_invisible=1; 
+var sc_security="17d6a111"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="hit counter"
+href="http://statcounter.com/free-hit-counter/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8353980/0/17d6a111/1/"
+alt="hit counter"></a></div></noscript>
+
+</body>
+</html>
